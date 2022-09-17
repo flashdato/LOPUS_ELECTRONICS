@@ -19,7 +19,7 @@ body{
   padding: 0 30px;
 }
 .banner{
-  background: url("photos/banner1.jpg") no-repeat;
+  /* background: url("photos/New_banner.jpeg") no-repeat; */
   height: 70vh;
   background-size: cover;
   background-position: center;
@@ -102,7 +102,7 @@ ul{
 @media (max-width: 380px) {
 .about2{
     margin-top: 00px;
-}
+} 
  .about .title{
     font-size: 28px;
  }
