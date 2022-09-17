@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image:url(registracia_back.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  max-width: max-content;
+}
+.box{
+  width: auto;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #000000d3;
+  border-radius: 5%;
+  text-align: center;
+}
+.box h1{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.box input[type = "text"],.box input[type = "password"],.box input[type = "submit"]{
+  background: none;
+  display: block;
+  margin: 10px ;
+  text-align: center;
+  border: 2px solid #00ccff;
+  padding: 14px 10px;
+  width: 40%;
+  outline: none;
+  color: rgb(0, 0, 0);
+  border-radius: 15px;
+  transition: 0.25s;
+  float: left;
+  margin-left: 30px;
+  background-color: #00a2ff4d;
+
+}
+.box input[type = "text"]:focus,.box input[type = "password"]:focus{
+  border-color: #2ecc71;
+  background-color: white;
+}
+.box input[type = "submit"]{
+  background-color: #000000d3;
+  border: 2px solid #2ecc71;
+  color: white;
+  cursor: pointer;
+  margin-left: 30%;
+
+}
+.box input[type = "submit"]:hover{
+  background: #2ecc71;
+}
+@media only screen and (max-width: 1440px)
+{
+  .box input[type = "text"],.box input[type = "password"],.box input[type = "submit"]{
+    width: 100%;
+    margin-left: -10px;
+  }
+  .box input[type = "submit"]{width: 108%;}
+  .box{
+    max-width: 300px; ;
+    } 
+}
+@media only screen and (max-width: 400px)
+{
+  .box{
+    margin-top: 120px;
+    margin-bottom: 30px;
+    } 
+}
+
+

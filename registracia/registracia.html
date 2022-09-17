@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registracia.css"/>
+    <title>Sign up</title>
+    <script defer src="registracia.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="icon"  type="image/png" sizes="16×16" href="photos/logo1.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script> 
+    $(function(){
+      $("#Nav").load('../NavBar/NavBar.html'); 
+    });
+    </script> 
+</head>
+<body>
+  <div id="Nav"></div>
+    <script type="text/javascript">var submitted=false;</script>
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display: none" onload="if(submitted){window.location='../main.html'}"></iframe>    
+    <form class="box" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSenuK9to8aW4mANYt7swvvARSZ2KkvAdrtaZiwnbyOhYTMgOw/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true" id="form" >
+        <h1>რეგისტრაცია</h1> 
+        <div id="error" style="color: red;"></div>
+        <input type="text" placeholder="სახელი"name="entry.22455374" required="true">
+        <input type="text" placeholder="გვარი"name="entry.896815397" required = "true">
+        <input type="text" placeholder="მომხმარებლის სახელი"name="entry.634565079" required = "true">
+        <input type="text" placeholder="ელფოსტა " name="entry.1904009283"  required = "true" id="email">
+        <input type="password"  placeholder="პაროლი" name="entry.730562727"  required = "true" id="password">
+        <input type="password"  placeholder="გაიმეორეთ პაროლი" name="entry.279513005" required = "true" id="password2">
+        <br>
+        <input type="submit" value="რეგისტრაცია">
+      </form>
+
+</body>
+</html>

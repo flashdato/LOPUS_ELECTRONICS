@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image:url(login_back.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.box{
+  width: 25%;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #000000;
+  border-radius: 20%;
+  text-align: center;
+}
+.box h1{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.box input[type = "text"],.box input[type = "password"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 80%;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+
+}
+.box input[type = "text"]:focus,.box input[type = "password"]:focus{
+  width: 90%;
+  border-color: #2ecc71;
+}
+.box input[type = "submit"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+  width: min-content;
+}
+.box input[type = "submit"]:hover{
+  background: #2ecc71;
+}
+@media only screen and (max-width: 1200px)
+{
+  .box{
+    margin-top: 20px;
+    height: max-content;
+    min-width: 300px ;
+  }
+
+}
+@media only screen and (max-width: 400px)
+{
+  .box{
+    margin-top: 20px;
+    height: max-content;
+    min-width: 240px ;
+  }
+
+}
