@@ -4,6 +4,10 @@ body{
   box-sizing: border-box;
   font-family: sans-serif;
 }
+.youtube{
+  width: 560px ;
+  height: 315px;
+}
 .content1{
   background:transparent;
   max-width: 1250px;
@@ -92,6 +96,14 @@ ul{
   }
 }
 @media (max-width: 900px) {
+  .youtube
+{
+  height: 200px;
+  width: 300px;
+}
+.about .title{
+  font-size: 28px;
+}
   .content1F{
     padding: 0 30px;
   }
@@ -101,7 +113,7 @@ ul{
 }
 @media (max-width: 380px) {
 .about2{
-    margin-top: 00px;
+    margin-top: 0px;
 } 
  .about .title{
     font-size: 28px;

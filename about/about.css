@@ -3,7 +3,10 @@
     background-attachment: fixed;
 
 }
-
+.image {
+   border-radius: 24px;
+   height: 750px;
+}
 body{
   background-image: url("1.jpg");
   margin: 0;
@@ -111,5 +114,8 @@ body{
   }
   .header {
     font-size: 40%;
+  } 
+  .image {
+    height: 300px;
   }
 }
