@@ -1,6 +1,7 @@
 *{
     background-size: cover;
     background-attachment: fixed;
+
 }
 
 body{
@@ -9,4 +10,106 @@ body{
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+}
+.container {
+  margin-top: 100px;
+  text-align: center;
+  background: transparent;
+}
+
+.header {
+  padding-top: 30px;
+  color: #444;
+  font-size: 20px;
+  margin: auto;
+  line-height: 50px;
+  margin-bottom: 30px;
+  background-color: #00a5bb;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 20%;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+
+.sub-container {
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgb(215, 231, 250);
+  border-radius: 24px;
+}
+
+.teams {
+  margin: 0px;
+  padding: 20px;
+  max-width: 30%;
+  cursor: pointer;
+  transition: 0.4s;
+  box-sizing: border-box;
+}
+
+.teams:hover {
+  background: rgb(221, 221, 221);
+  border-radius: 12px;
+}
+
+.teams img {
+  width: 200px;
+  height: 200px;
+}
+
+.name {
+  padding: 12px;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.desig {
+  font-style: italic;
+  color: #888;
+}
+
+.about {
+  margin: 20px 0;
+  font-weight: lighter;
+  color: #4e4e4e;
+}
+
+.social-links {
+  margin: 14px;
+}
+
+.social-links a {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  transition: .4s;
+}
+
+.social-links a:hover {
+  transform: scale(1.5);
+}
+
+.social-links a i {
+  color: #444;
+}
+
+@media screen and (max-width: 600px) {
+  .teams {
+      max-width: 100%;
+  }
+  .header {
+    font-size: 40%;
+  }
 }

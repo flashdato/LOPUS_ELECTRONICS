@@ -18,7 +18,7 @@ body{
   padding: 0 30px;
 } 
 .banner{
- background: url("photos/banner3.jpg") no-repeat;
+ background: url("banner.jpg") no-repeat fixed;
   height: 70vh;
   background-size: cover;
   background-position: center;
@@ -26,6 +26,7 @@ body{
 }
 .about{
   padding: 30px 0;
+  height: 40vh;
   text-align: justify;
 }
 .about2{
