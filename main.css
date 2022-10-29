@@ -4,12 +4,13 @@ body{
   box-sizing: border-box;
   font-family: sans-serif;
 }
-.content1{
+.content{
   background:transparent;
   max-width: 1250px;
   margin: auto;
   padding: 0 30px;
   margin-bottom: 10px;
+  font-size: 17px;
 }
 .content2{
   background:transparent;
@@ -60,22 +61,22 @@ ul{
 .content2 li a:hover{
   color: #b9b9b9;
 }
-.content1 li{
+.content li{
   display: inline-block;
   margin: 6px;
   list-style: none;
 }
-.content1 li a{
+.content li a{
   color: black;
   text-decoration: none;
   font-size: 60px;
   transition: all ease-in-out 250ms;
 }
-.content1 li a:hover{
+.content li a:hover{
   color: #b9b9b9;
 }
 @media (max-width: 1230px) {
-  .content1{
+  .content{
     padding: 0 60px;
   }
   .content2{
@@ -83,7 +84,7 @@ ul{
   }
 }
 @media (max-width: 1100px) {
-  .content1{
+  .content{
     padding: 0 40px;
   }
   .content2{
@@ -91,11 +92,15 @@ ul{
   }
 }
 @media (max-width: 900px) {
-  .content1F{
+  .content{
     padding: 0 30px;
+    font-size: 15px;
   }
   .content2{
     padding: 0 30px;
+  }
+  .about .title{
+    font-size: 30px;
   }
 }
 @media (max-width: 380px) {
