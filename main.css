@@ -4,7 +4,7 @@ body{
   box-sizing: border-box;
   font-family: sans-serif;
 }
-.content{
+.content1{
   background:transparent;
   max-width: 1250px;
   margin: auto;
@@ -25,16 +25,16 @@ body{
   background-position: center;
   background-attachment: fixed;
 }
-.about{
+.about1{
   padding: 30px 0;
 }
 .about2{
-  margin-top: 300px;
+  margin-top: 10px;
   background-color:  #00a5bb;
   padding: 30px 0;
   text-align: justify;
 }
-.about .title{
+.about1 .title{
   font-size: 40px;
   font-weight: 300;
 }
@@ -60,22 +60,22 @@ ul{
 .content2 li a:hover{
   color: #b9b9b9;
 }
-.content li{
+.content1 li{
   display: inline-block;
   margin: 6px;
   list-style: none;
 }
-.content li a{
+.content1 li a{
   color: black;
   text-decoration: none;
   font-size: 60px;
   transition: all ease-in-out 250ms;
 }
-.content li a:hover{
+.content1 li a:hover{
   color: #b9b9b9;
 }
 @media (max-width: 1230px) {
-  .content{
+  .content1{
     padding: 0 60px;
   }
   .content2{
@@ -83,7 +83,7 @@ ul{
   }
 }
 @media (max-width: 1100px) {
-  .content{
+  .content1{
     padding: 0 40px;
   }
   .content2{
@@ -91,7 +91,7 @@ ul{
   }
 }
 @media (max-width: 900px) {
-  .content{
+  .content1{
     padding: 0 30px;
     font-size: 15px;
   }
