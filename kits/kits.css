@@ -21,7 +21,6 @@ body{
   font-size: 25px;
 
 }
-
 .active, .collapsible:hover {
   background-color: rgba(0, 60, 255, 0.3);
   transition: 0.5s;
@@ -61,7 +60,9 @@ body{
   padding: 30px 0;
   text-align: justify;
 }
-.about .title{
+.title{
+  margin-top: 1%;
+  margin-left: 5%;
   font-size: 38px;
   font-weight: 300;
 }
@@ -123,7 +124,7 @@ ul{
   height: 200px;
   width: 300px;
 }
-.about .title{
+.title{
   font-size: 28px;
 }
   .content1{
@@ -148,7 +149,7 @@ ul{
 .about2{
     margin-top: 0px;
 } 
- .about .title{
+ .title{
     font-size: 28px;
  }
  .about2 .title2{
