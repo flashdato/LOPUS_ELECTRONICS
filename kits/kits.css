@@ -10,19 +10,20 @@ body{
 }
 .collapsible {
   background-color: #8cd5ff;
+  margin-left: 5%;
   cursor: pointer;
   padding: 14px 10px;
   padding-left: 100px;
-  width: 100%;
+  width: 90%;
   border: 2px solid #000000;
   border-radius: 4px;
   text-align: left;
   outline: none;
   font-size: 25px;
-
 }
 .active, .collapsible:hover {
-  background-color: rgba(0, 60, 255, 0.3);
+  background-color: rgb(106, 64, 255);
+  color: rgb(255, 255, 255);
   transition: 0.5s;
 }
 
@@ -43,7 +44,7 @@ body{
   padding: 0 30px;
 } 
 .banner{
- background: url("banner.jpg") no-repeat fixed;
+ background: url("background.jpg") no-repeat fixed;
   height: 70vh;
   background-size: cover;
   background-position: center;
@@ -119,14 +120,13 @@ ul{
   }
 }
 @media (max-width: 900px) {
-  .youtube
-{
+  .youtube{
   height: 200px;
   width: 300px;
-}
-.title{
+  }
+  .title{
   font-size: 28px;
-}
+  }
   .content1{
     padding: 20px;
     font-size: small;
@@ -137,7 +137,7 @@ ul{
   .collapsible {
     padding: 12px;
     padding-left: 30px;
-    width: 100%;
+    width: 95%;
     font-size: 15px;
   
   }
