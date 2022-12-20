@@ -107,52 +107,7 @@ body{
 .social-links a i {
   color: #444;
 }
-
-
-.content2{
-  background:transparent;
-  max-width: 1250px;
-  margin: auto;
-  padding: 0 30px;
-} 
-.about2{
-  margin-top: 50px;
-  background-color:  #00a5bb;
-  padding: 30px 0;
-  text-align: justify;
-}
-.about2 .title2{
-  font-size: 30px;
-  font-weight: 300;
-}
-.content2 li{
-  display: inline-block;
-  margin: 6px;
-  list-style: none;
-}
-.content2 li a{
-  color: black;
-  text-decoration: none;
-  font-size: 60px;
-  transition: all ease-in-out 250ms;
-}
-.content2 li a:hover{
-  color: #b9b9b9;
-}
-@media (max-width: 1230px) {
-  .content2{
-    padding: 0 60px;
-  }
-}
-@media (max-width: 1100px) {
-  .content2{
-    padding: 0 40px;
-  }
-}
 @media (max-width: 600px) {
-  .content2{
-    padding: 0 30px;
-  }
   .teams {
       max-width: 100%;
   }
@@ -162,15 +117,4 @@ body{
   .image {
     max-width: 100%;
   }
-}
-@media (max-width: 380px) {
-.about2{
-    margin-top: 00px;
-} 
- .about2 .title2{
-  font-size: 28px;
-}
- .about2 .p{
-  font-size: 18px;
- }
 }

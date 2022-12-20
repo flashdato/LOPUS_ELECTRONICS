@@ -12,45 +12,58 @@
     $(function(){
       $("#Nav").load('../NavBar/NavBar.html'); 
     });
+    $(function(){
+        $("#bottom").load('../bottom/bottom.html'); 
+      });
     </script> 
 </head>
 <body>
   <div id="Nav"></div>
   <div class="banner"></div>
+  <div class="box">
   <div class="about">
-  <div class="content">
-    <div class="title">ჩართვა-გამორთვის აპლიკაცია</div><br>
-    <iframe class="youtube" src="https://www.youtube.com/embed/6ATzIn3DolI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-   </div>
-  </div>
-  <br>
-  <br>
-  <div class="about">
-    <div class="content">
-      <div class="title">Game boy-ის აწყობა - ნაწილი პირველი</div><br>
-      <iframe class="youtube" src="https://www.youtube.com/embed/gkU5TFCyJHE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-     </div>
-    </div>
-    <br>
-    <br>
-    <div class="about">
-      <div class="content">
-        <div class="title">Game boy-ის აწყობა - ნაწილი მეორე</div><br>
-        <iframe class="youtube" src="https://www.youtube.com/embed/Nv7oLfVxXt4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-      </div>
-      <br>
-      <br>
-  <div class="about2"> 
-    <div class="content2">  
-    <div class="title2">დაგვიკავშირდით!</div><br>
-    <p>(+995) 599 00 55 12</p><br>
-    <p>დაგვიკავშირდით facebook-ზე ან მოგვწერეთ მაილზე</p>
-    <p>lopus.electronics@gmail.com</p><br>
-    <li><a  href="https://www.facebook.com/lopus.info/?ref=page_internal" target="_blank"><i class="fa fa-facebook"></i></a></li>
-    <li><a  href="mailto:lopus.electronics@gmail.com" target="_blank"><i class="fa fa-google-plus"></i></a></li>
-    <li><a  href="https://www.instagram.com/lopus.electronics/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-    </div>
+    <div class="title">აპლიკაციები</div><br>
+    <button type="button" class="collapsible">აპლიკაციის ვიდეოები იხილეთ აქ </button>
+<div class="content1">
+  <p>ჩართვა გამორთვის აპლიკაცია - <a href="https://www.youtube.com/watch?v=6ATzIn3DolI&t">გადადით ლინკზე</a></p>
+  <p>random number generator აპლიკაცია - <a href="https://www.youtube.com/watch?v=WV45Jnj80LU">გადადით ლინკზე</a></p>
 </div>
+  </div>
+  <div class="about">
+      <div class="title">სასწავლო კურსები</div><br>
+      <button type="button" class="collapsible">სასწავლო კურსის ვიდეოები იხილეთ აქ </button>
+      <div class="content1">
+        <p>Arduino და Bluetooth - <a href="https://www.youtube.com/watch?v=iRchBCL4GZ8&t">გადადით ლინკზე</a></p>
+        <p>Arduino და DHT11 (ტემპერატურა და ტენიანობა) - <a href="https://www.youtube.com/watch?v=iRchBCL4GZ8&t">გადადით ლინკზე</a></p>
+        <p>Arduino და მიწის ტენიანობა - <a href="https://www.youtube.com/watch?v=ufYD9smptQM">გადადით ლინკზე</a></p>
+        <p>Arduino და ულტრაბგერითი მანძილმზომი - <a href="https://www.youtube.com/watch?v=goCiMp0sEUQ&t">გადადით ლინკზე</a></p>
+      </div>
+     </div>
+    <div class="about">
+        <div class="title">სხვადასხვა ნაკრებები</div><br>
+        <button type="button" class="collapsible">სხვადასხვა ნაკრების აწყობის ვიდეოები იხილეთ აქ </button>
+        <div class="content1">
+          <p>GAME BOY ნაწილი I - <a href="https://www.youtube.com/watch?v=gkU5TFCyJHE&t">გადადით ლინკზე</a></p>
+          <p>GAME BOY ნაწილი II - <a href="https://www.youtube.com/watch?v=Nv7oLfVxXt4&t">გადადით ლინკზე</a></p>
+         </div>
+      </div>
+    </div>
+      <div id="bottom"></div>
 </body>
+<script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+  
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.display === "block") {
+        content.style.display = "none";
+      } else {
+        content.style.display = "block";
+      }
+    });
+  }
+  </script>
 </html>

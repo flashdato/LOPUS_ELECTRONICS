@@ -37,12 +37,6 @@ body{
   overflow: hidden;
   margin-bottom: 10px;
 }
-.content2{
-  background:transparent;
-  max-width: 1250px;
-  margin: auto;
-  padding: 0 30px;
-} 
 .banner{
  background: url("background.jpg") no-repeat fixed;
   height: 70vh;
@@ -55,39 +49,15 @@ body{
   height: 40vh;
   text-align: justify;
 }
-.about2{
-  margin-top: 50px;
-  background-color:  #00a5bb;
-  padding: 30px 0;
-  text-align: justify;
-}
 .title{
   margin-top: 1%;
   margin-left: 5%;
   font-size: 38px;
   font-weight: 300;
 }
-.about2 .title2{
-  font-size: 30px;
-  font-weight: 300;
-}
 ul{
   margin: 0;
   padding: 0;
-}
-.content2 li{
-  display: inline-block;
-  margin: 6px;
-  list-style: none;
-}
-.content2 li a{
-  color: black;
-  text-decoration: none;
-  font-size: 60px;
-  transition: all ease-in-out 250ms;
-}
-.content2 li a:hover{
-  color: #b9b9b9;
 }
 .content1 li{
   display: inline-block;
@@ -107,16 +77,10 @@ ul{
   .content1{
     padding: 25px;
   }
-  .content2{
-    padding: 0 60px;
-  }
 }
 @media (max-width: 1100px) {
   .content1{
     padding: 20px;
-  }
-  .content2{
-    padding: 0 40px;
   }
 }
 @media (max-width: 900px) {
@@ -131,9 +95,6 @@ ul{
     padding: 20px;
     font-size: small;
   }
-  .content2{
-    padding: 0 30px;
-  }
   .collapsible {
     padding: 12px;
     padding-left: 30px;
@@ -145,20 +106,11 @@ ul{
 @media (max-width: 380px) {
   .content1{
     font-size: 16px;
-  }
-.about2{
-    margin-top: 0px;
-} 
+  } 
  .title{
     font-size: 28px;
  }
- .about2 .title2{
-  font-size: 28px;
-}
  .about .p{
-  font-size: 18px;
- }
- .about2 .p{
   font-size: 18px;
  }
 }

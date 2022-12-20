@@ -4,40 +4,56 @@ body{
   box-sizing: border-box;
   font-family: sans-serif;
 }
-.youtube{
+.banner{
+  background: url("banner.jpg") no-repeat fixed;
+   height: 70vh;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+ }
+/* .youtube{
   width: 560px ;
   height: 315px;
+} */
+.box{
+  margin-top: 2%;
+  margin-left: 17%;
+  margin-right: 17%;
+  padding: 5%;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.6);;
+}
+.collapsible {
+  background-color: #8cd5ff;
+  margin-left: 5%;
+  cursor: pointer;
+  padding: 14px 10px;
+  padding-left: 100px;
+  width: 90%;
+  border: 2px solid #000000;
+  border-radius: 4px;
+  text-align: left;
+  outline: none;
+  font-size: 25px;
+}
+.active, .collapsible:hover {
+  background-color: rgb(106, 64, 255);
+  color: rgb(255, 255, 255);
+  transition: 0.5s;
 }
 .content1{
+  display: none;
   background:transparent;
   max-width: 1250px;
   margin: auto;
-  padding: 0 30px;
+  font-size: larger;
+  padding: 30px;
+  overflow: hidden;
   margin-bottom: 10px;
 }
-.content2{
-  background:transparent;
-  max-width: 1250px;
-  margin: auto;
-  padding: 0 30px;
-} 
-.banner{
- background: url("banner.jpg") no-repeat fixed;
-  height: 70vh;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-}
 .about{
-  padding: 30px 0;
-  height: 40vh;
-  margin-bottom: 3%;
-  text-align: justify;
-}
-.about2{
-  margin-top: 30px;
-  background-color:  #00a5bb;
-  padding: 30px 0;
+  padding: 10px 0;
+  margin-bottom: 2%;
   text-align: justify;
 }
 .about .title{
@@ -45,27 +61,9 @@ body{
   font-weight: 300;
   margin-bottom: 2%;
 }
-.about2 .title2{
-  font-size: 30px;
-  font-weight: 300;
-}
 ul{
   margin: 0;
   padding: 0;
-}
-.content2 li{
-  display: inline-block;
-  margin: 6px;
-  list-style: none;
-}
-.content2 li a{
-  color: black;
-  text-decoration: none;
-  font-size: 60px;
-  transition: all ease-in-out 250ms;
-}
-.content2 li a:hover{
-  color: #b9b9b9;
 }
 .content1 li{
   display: inline-block;
@@ -85,19 +83,18 @@ ul{
   .content1{
     padding: 0 60px;
   }
-  .content2{
-    padding: 0 60px;
-  }
 }
 @media (max-width: 1100px) {
   .content1{
     padding: 0 40px;
   }
-  .content2{
-    padding: 0 40px;
-  }
 }
 @media (max-width: 900px) {
+  .box{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 3%;
+  }
   .youtube
 {
   height: 200px;
@@ -110,24 +107,17 @@ ul{
   .content1{
     padding: 0 30px;
   }
-  .content2{
-    padding: 0 30px;
-  }
 }
 @media (max-width: 380px) {
-.about2{
-    margin-top: 0px;
-} 
+  .box{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2%;
+  }
  .about .title{
     font-size: 28px;
  }
- .about2 .title2{
-  font-size: 28px;
-}
  .about .p{
-  font-size: 18px;
- }
- .about2 .p{
   font-size: 18px;
  }
 }
