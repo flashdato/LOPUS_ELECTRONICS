@@ -107,6 +107,20 @@ ul{
   .content1{
     padding: 0 30px;
   }
+  .collapsible {
+    padding: 12px;
+    padding-left: 30px;
+    width: 90%;
+    font-size: 15px;
+  
+  }
+  .content1 p{
+    padding: 20px;
+    font-size: 18px;
+   }
+   .content1 a{
+    font-size: 25px;
+   }
 }
 @media (max-width: 380px) {
   .box{
@@ -117,7 +131,7 @@ ul{
  .about .title{
     font-size: 28px;
  }
- .about .p{
+ .about p{
   font-size: 18px;
  }
 }

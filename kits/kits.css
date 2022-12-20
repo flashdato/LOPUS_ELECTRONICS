@@ -100,7 +100,7 @@ ul{
     padding-left: 30px;
     width: 95%;
     font-size: 15px;
-  
+    width: 90%;
   }
 }
 @media (max-width: 380px) {
