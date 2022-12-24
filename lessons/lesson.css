@@ -5,7 +5,7 @@ body{
   font-family: sans-serif;
 }
 .banner{
-  background: url("banner.jpg") no-repeat fixed;
+  background: url("banners/banner.jpg") no-repeat fixed;
    height: 70vh;
    background-size: cover;
    background-position: center;
@@ -19,6 +19,12 @@ body{
   margin-top: 2%;
   margin-left: 17%;
   margin-right: 17%;
+  padding: 5%;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.6);;
+}
+.box2{
+  background-color: #8cd5ff;
   padding: 5%;
   border-radius: 10px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.6);;
@@ -42,7 +48,6 @@ body{
   transition: 0.5s;
 }
 .content1{
-  display: none;
   background:transparent;
   max-width: 1250px;
   margin: auto;
@@ -57,27 +62,17 @@ body{
   text-align: justify;
 }
 .about .title{
+  color: #000000;
+  text-decoration: none;
   font-size: 38px;
   font-weight: 300;
   margin-bottom: 2%;
 }
 ul{
-  margin: 0;
-  padding: 0;
+  margin-left: 2%;
 }
 .content1 li{
-  display: inline-block;
   margin: 6px;
-  list-style: none;
-}
-.content1 li a{
-  color: black;
-  text-decoration: none;
-  font-size: 60px;
-  transition: all ease-in-out 250ms;
-}
-.content1 li a:hover{
-  color: #b9b9b9;
 }
 @media (max-width: 1230px) {
   .content1{
@@ -91,9 +86,9 @@ ul{
 }
 @media (max-width: 900px) {
   .box{
-    margin-left: 10%;
-    margin-right: 10%;
-    padding: 3%;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding: 2%;
   }
   .youtube
 {
@@ -102,7 +97,8 @@ ul{
   padding: 10px;
 }
 .about .title{
-  font-size: 28px;
+  font-size: 20px;
+  text-align: left;
 }
   .content1{
     padding: 0 30px;
@@ -116,17 +112,20 @@ ul{
   }
   .content1 p{
     padding: 20px;
-    font-size: 18px;
+    font-size: 16px;
    }
    .content1 a{
-    font-size: 25px;
+    font-size: 16px;
    }
+   .content1 li{
+    font-size: 16px;
+  }
 }
 @media (max-width: 380px) {
   .box{
-    margin-left: 5%;
-    margin-right: 5%;
-    padding: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 1%;
   }
  .about .title{
     font-size: 28px;
