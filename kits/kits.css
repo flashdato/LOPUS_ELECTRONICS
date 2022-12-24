@@ -4,6 +4,13 @@ body{
   box-sizing: border-box;
   font-family: sans-serif;
 }
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
 .youtube{
   width: 560px ;
   height: 315px;
