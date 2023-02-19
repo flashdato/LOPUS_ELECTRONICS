@@ -4,6 +4,10 @@ body{
   box-sizing: border-box;
   font-family: sans-serif;
 }
+img{
+  border: 2px solid #000000;
+  border-radius: 20px;
+}
 .material-symbols-outlined {
   font-variation-settings:
   'FILL' 0,
