@@ -52,6 +52,7 @@ body{
     margin-left: 16%;
     margin-right: 16%;
   }
+  
   #hx{
     width: 250px;
     padding-top: 10px;
@@ -59,6 +60,7 @@ body{
     padding-left: 25px;
   padding-right: 25px;
   }
+
   #ll{
     display: inline-block;
     margin: 0;
@@ -199,13 +201,13 @@ body{
     font-size: 18px;
    }
    #tb{
-    margin-left: 1%;
+    margin-left: 2%;
     margin-right: 3%;
   }
   #hx{
-    width: 200px;
-    padding-left: 10px;
-    padding-right: 10px;
+    width: 270px;
+    padding-left: 30px;
+    
   }
   #ll{
     margin-left: 6%;
@@ -213,19 +215,17 @@ body{
     padding-bottom: 20px;
   }
   #mm{
-width: 320px;
+    width: 310px;
     padding-top: 10px;
     padding-bottom: 20px;
   }
   #as{
-    width: 200px;
-    padding-left: 10px;
-  padding-right: 10px;
+    width: 270px;
+    padding-left: 30px;
   }
   #rr{
-    width: 200px;
-    padding-left: 10px;
-  padding-right: 10px;
+    width: 270px;
+    padding-left: 30px;
   }
 }
   
